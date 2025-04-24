@@ -1,4 +1,4 @@
-# The Official Implementation of MSFN-Net
+# 🌟 The Official Implementation of MSAF-Net
 
 🎉 We have been accepted at ICMR-2025!
 
