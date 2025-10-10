@@ -16,7 +16,7 @@ We provide video IDs for each dataset splits. Due to copyright restrictions, the
 + [FakeTT](https://github.com/ICTMCG/FakingRecipe)
 
 ## Features
-We provide preprocessed features, which you can download from [this link](https://pan.baidu.com/s/1l2ENoh89DhhLUKUNvMeN7w?pwd=kkhg)(pwd: kkhg) and place the '/fea' directory under MSAF-Net (at the same level as main.py).
+We provide preprocessed features, which you can download from [this link](https://pan.baidu.com/s/1l2ENoh89DhhLUKUNvMeN7w?pwd=kkhg)(pwd: kkhg) and place the '/fea' directory under MSAF-Net (at the same level as main.py). We offer [checkpoints](https://pan.baidu.com/s/1wXU4ezZ7FeGjeCwTvSHAMQ?pwd=v8du) (pwd: v8du) for two datasets, which you can similarly place the '/provided_ckp' directory under MSAF-Net.
 
 ## Environment
 + Python 3.8.13
