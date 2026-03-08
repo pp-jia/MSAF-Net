@@ -6,6 +6,7 @@ This is the official code for the [***Multi-modal Similarity Guided Adaptive Fus
 - [x] Code
 - [x] Model weights
 - [x] Features
+- [x] Data preprocessing
 
 ## Framework
 ![alt text](pic/framework.png)
@@ -31,6 +32,35 @@ conda create --name msaf python=3.8
 conda activate msaf
 pip install -r requirements.txt
 ```
+## Data Preprocessing
+
+This section describes how to preprocess the data and extract the required features for the model.
+
+### ImageBind Features
+
+1. Download the ImageBind pretrained checkpoint from the official source:  
+   https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
+
+2. Place the downloaded checkpoint under the following directory:
+
+   /data_process/.checkpoints/
+
+3. Run the following scripts to extract ImageBind features for the two datasets:
+
+   python getImageBind_FakeSV.py
+   python getImageBind_FakeTT.py
+
+### Caption Features
+
+We provide the generated captions in the `/data` directory.
+
+Run the following script to extract caption features:
+
+   python get_caption_feature.py
+
+### Other Features
+
+For the extraction of other features, we follow the same preprocessing pipeline as **FakingRecipe**. Please refer to the original implementation for more details.
 
 ## Train
 ```python
