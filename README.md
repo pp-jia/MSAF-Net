@@ -46,17 +46,19 @@ This section describes how to preprocess the data and extract the required featu
    /data_process/.checkpoints/
 
 3. Run the following scripts to extract ImageBind features for the two datasets:
-
+```python
    python getImageBind_FakeSV.py
    python getImageBind_FakeTT.py
+```
 
 ### Caption Features
 
 We provide the generated captions in the `/data` directory.
 
 Run the following script to extract caption features:
-
+```python
    python get_caption_feature.py
+```
 
 ### Other Features
 
